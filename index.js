@@ -24,4 +24,17 @@ console.log(a);
 console.log(b);
 console.log(c);
 
+// function to calculate speed
+
+let speed, distance, time;
+
+function calculateSpeed(distance, time) {
+    speed = distance / time;
+    return speed;
+}
+// call function
+
+speed = calculateSpeed(100, 10);
+console.log("Speed is " + speed);
+
 
